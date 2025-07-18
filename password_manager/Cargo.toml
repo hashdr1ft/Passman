@@ -1,0 +1,14 @@
+[package]
+name = "password_manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+warp = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+serde_json = "1.0"
+aes-gcm = "0.9"  # Or the latest version
+aes-gcm-siv = "0.10"  # Or the latest version
+rand = "0.8"  # Or the latest version
+base64 = "0.13"  # Or the latest version

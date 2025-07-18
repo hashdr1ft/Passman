@@ -1,0 +1,56 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Password Manager</h1>
+  <form id="add-password-form">
+    <h2>Add Password</h2>
+    <input type="text" id="username" placeholder="Username" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <button type="submit">Add Password</button>
+  </form>
+  <form id="get-passwords-form">
+    <h2>Retrieve Passwords</h2>
+    <input type="password" id="master-password" placeholder="Master Password" required>
+    <button type="submit">Get Passwords</button>
+  </form>
+  <ul id="password-list"></ul>
+  <script src="renderer.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Manager</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+<body>
+  <h1 class="  text-6xl  " >Pass_Man</h1>
+  <form id="add-password-form">
+    <h2 class=" text-3xl my-7" >Add Password</h2>
+    <input class="" type="text" id="username" placeholder="Username" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <button type="submit">Add Password</button>
+    <button type="button" id="generate-password">Generate Random Password</button>
+    <input type="text" id="generated-password" placeholder="Random password" readonly>
+  </form>
+  <form id="get-passwords-form">
+    <h2>Retrieve Passwords</h2>
+    <input type="password" id="master-password" placeholder="Master Password" required>
+    <button class="" type="submit">Get Passwords</button>
+  
+  </form>
+  <ul id="password-list"></ul>
+  <script src="renderer.js"></script>
+</body>
+</html>
