@@ -1,0 +1,17 @@
+# Electron build artifacts
+password-manager-electron/dist/
+*.dmg
+*.exe
+*.app
+*.zip
+*.deb
+
+# Rust build artifacts
+/target
+
+# Node modules
+password-manager-electron/node_modules/
+
+# macOS files
+.DS_Store
+
